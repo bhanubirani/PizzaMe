@@ -14,6 +14,9 @@
 		2F9169EE1CAA50150015D986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9169EC1CAA50150015D986 /* LaunchScreen.storyboard */; };
 		2F9169F91CAA50150015D986 /* PizzaMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9169F81CAA50150015D986 /* PizzaMeTests.swift */; };
 		2F916A041CAA50160015D986 /* PizzaMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F916A031CAA50160015D986 /* PizzaMeUITests.swift */; };
+		2F916A121CAABC230015D986 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F916A111CAABC230015D986 /* Location.swift */; };
+		2F916A141CAAD1010015D986 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F916A131CAAD1010015D986 /* LocationViewModel.swift */; };
+		2F916A161CAAEF860015D986 /* LocationDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F916A151CAAEF860015D986 /* LocationDownloadManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		2F9169FF1CAA50160015D986 /* PizzaMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F916A031CAA50160015D986 /* PizzaMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaMeUITests.swift; sourceTree = "<group>"; };
 		2F916A051CAA50160015D986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F916A111CAABC230015D986 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2F916A131CAAD1010015D986 /* LocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		2F916A151CAAEF860015D986 /* LocationDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDownloadManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				2F9169E31CAA50150015D986 /* AppDelegate.swift */,
 				2F9169E51CAA50150015D986 /* ViewController.swift */,
+				2F916A111CAABC230015D986 /* Location.swift */,
+				2F916A131CAAD1010015D986 /* LocationViewModel.swift */,
+				2F916A151CAAEF860015D986 /* LocationDownloadManager.swift */,
 				2F9169E71CAA50150015D986 /* Main.storyboard */,
 				2F9169EA1CAA50150015D986 /* Assets.xcassets */,
 				2F9169EC1CAA50150015D986 /* LaunchScreen.storyboard */,
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F9169E61CAA50150015D986 /* ViewController.swift in Sources */,
+				2F916A121CAABC230015D986 /* Location.swift in Sources */,
 				2F9169E41CAA50150015D986 /* AppDelegate.swift in Sources */,
+				2F916A161CAAEF860015D986 /* LocationDownloadManager.swift in Sources */,
+				2F916A141CAAD1010015D986 /* LocationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +494,7 @@
 				2F916A0A1CAA50160015D986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F916A0B1CAA50160015D986 /* Build configuration list for PBXNativeTarget "PizzaMeTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				2F916A0D1CAA50160015D986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F916A0E1CAA50160015D986 /* Build configuration list for PBXNativeTarget "PizzaMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				2F916A101CAA50160015D986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
